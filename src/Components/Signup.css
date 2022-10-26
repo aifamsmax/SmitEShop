@@ -1,0 +1,38 @@
+body{
+    background-color: darkblue;
+}
+.signupcontainer{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    /* background-color: yellow; */
+}
+.signup{
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 250px;
+}
+.signup p{
+    font-size: 30px;
+}
+.signup lable{
+    padding: 0;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.signup input{
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid red;
+    font-size: 18px;
+}
+ button{
+    margin-top: 20px;
+    border-radius: 5px;
+}
